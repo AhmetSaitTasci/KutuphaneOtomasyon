@@ -113,31 +113,35 @@ Bu yüzden Oduncler tablosu, Kitaplar ve Uyeler tabloları ile ilişkilidir.
 
 ```text
 Uyeler  ---- Oduncler ---- Kitaplar
+```
 
 Oduncler tablosunda hem KitapId hem de UyeId tutulmaktadır. Böylece hangi üyenin hangi kitabı aldığı takip edilebilmektedir.
 
-Kullanılan Teknolojiler
-C#
-Windows Forms
-Entity Framework
-SQL Server LocalDB
-LINQ
-DataGridView
-ComboBox
-DateTimePicker
-Kullanılan Temel Kontroller
+## Kullanılan Teknolojiler
+
+- C#
+- Windows Forms
+- Entity Framework
+- SQL Server LocalDB
+- LINQ
+- DataGridView
+- ComboBox
+- DateTimePicker
+
+## Kullanılan Temel Kontroller
 
 Projede kullandığımız başlıca Windows Forms kontrolleri şunlardır:
 
-TextBox
-Label
-Button
-DataGridView
-ComboBox
-DateTimePicker
-GroupBox
-MessageBox
-Uygulamanın Çalışma Mantığı
+- TextBox
+- Label
+- Button
+- DataGridView
+- ComboBox
+- DateTimePicker
+- GroupBox
+- MessageBox
+
+## Uygulamanın Çalışma Mantığı
 
 Uygulama açıldığında veritabanındaki kitaplar, üyeler ve ödünç kayıtları listelenir.
 
@@ -153,33 +157,43 @@ Kitap iade edildiğinde stok tekrar artar.
 
 Teslim tarihi geçmiş ve iade edilmemiş kitaplar geciken kitaplar olarak gösterilir.
 
-Uygulamadan Ekran Görüntüleri
-Ana Ekran
-<img width="1746" height="855" alt="Ekran görüntüsü 2026-05-27 000552" src="https://github.com/user-attachments/assets/097373b4-19d3-4d79-9bca-5bf8b70bf275" />
-<img width="1734" height="853" alt="Ekran görüntüsü 2026-05-27 000730" src="https://github.com/user-attachments/assets/9feb5456-31c4-4e20-97a4-2a52647e59a3" />
+## Uygulamadan Ekran Görüntüleri
+
+## Ana Ekran
+
+<img width="1746" height="855" alt="Ana Ekran" src="https://github.com/user-attachments/assets/097373b4-19d3-4d79-9bca-5bf8b70bf275" />
+
+<img width="1734" height="853" alt="Ana Ekran 2" src="https://github.com/user-attachments/assets/9feb5456-31c4-4e20-97a4-2a52647e59a3" />
 
 Burada kitap ekleme, üye ekleme, ödünç verme ve listeleme işlemleri aynı ekran üzerinde gösterilmektedir.
 
-Kitap Listeleme ve Arama
-<img width="1739" height="983" alt="Ekran görüntüsü 2026-05-27 000932" src="https://github.com/user-attachments/assets/a4a88a37-f77e-4b41-8b83-39582357fb1b" />
-<img width="1725" height="850" alt="Ekran görüntüsü 2026-05-27 000901" src="https://github.com/user-attachments/assets/a76e308b-8539-4406-b748-483a7168ce8c" />
+## Kitap Listeleme ve Arama
+
+<img width="1739" height="983" alt="Kitap Listeleme ve Arama" src="https://github.com/user-attachments/assets/a4a88a37-f77e-4b41-8b83-39582357fb1b" />
+
+<img width="1725" height="850" alt="Kitap Arama" src="https://github.com/user-attachments/assets/a76e308b-8539-4406-b748-483a7168ce8c" />
+
 Bu ekranda kitaplar listelenmekte ve kitap adı, yazar veya ISBN bilgisine göre arama yapılabilmektedir.
 
-Üye Listeleme
-<img width="1729" height="849" alt="Ekran görüntüsü 2026-05-27 000836" src="https://github.com/user-attachments/assets/65dc690f-90f8-45b1-9b7c-de26e61dc53a" />
+## Üye Listeleme
+
+<img width="1729" height="849" alt="Üye Listeleme" src="https://github.com/user-attachments/assets/65dc690f-90f8-45b1-9b7c-de26e61dc53a" />
+
 Bu bölümde sisteme kayıtlı üyeler listelenmektedir.
 
-Ödünç Kayıtları
-<img width="1730" height="852" alt="Ekran görüntüsü 2026-05-27 001016" src="https://github.com/user-attachments/assets/d49d837d-7f41-447c-84d0-8c0ea97cc052" />
+## Ödünç Kayıtları
+
+<img width="1730" height="852" alt="Ödünç Kayıtları" src="https://github.com/user-attachments/assets/d49d837d-7f41-447c-84d0-8c0ea97cc052" />
 
 Bu bölümde hangi kitabın hangi üye tarafından alındığı, alış tarihi, teslim tarihi, iade tarihi ve durum bilgisi gösterilmektedir.
 
-Geciken Kitaplar
-<img width="1729" height="852" alt="Ekran görüntüsü 2026-05-27 001031" src="https://github.com/user-attachments/assets/81a7cba8-f8cb-42cf-b39c-08fffbd383e5" />
+## Geciken Kitaplar
+
+<img width="1729" height="852" alt="Geciken Kitaplar" src="https://github.com/user-attachments/assets/81a7cba8-f8cb-42cf-b39c-08fffbd383e5" />
 
 Bu bölümde teslim tarihi geçmiş ve iade edilmemiş kitaplar listelenmektedir.
 
-Sonuç
+## Sonuç
 
 Bu proje ile C# Windows Forms üzerinde Entity Framework kullanarak basit bir kütüphane otomasyonu geliştirdik.
 
